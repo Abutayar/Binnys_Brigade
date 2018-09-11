@@ -1,0 +1,65 @@
+/* Global css */
+:root {
+  --main-bg-color: brown;
+  --dark-bg-color:black;
+  --text-dark:black;
+  --text-light:white;
+  --text-orange:orange;
+}
+
+.Headings{
+  margin: 1.5rem 0;
+  color: var(--text-dark);
+}
+.text_orange{
+  color: var(--text-orange);
+}
+
+
+/* register_cta_section */
+.register_cta_section{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  color: white;
+  margin: 0;
+}
+
+.register_cta_section h6,.register_cta_section h4{
+  padding: 0 1rem;
+}
+
+.register_cta{
+  text-decoration: none;
+  padding: .2rem 1rem;
+  border-radius: 1rem;
+  color: var(--text-light);
+  border: 1px solid var(--text-orange);
+  text-transform: uppercase;
+}
+.register_cta_section a :hover{
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+/* latest_news_section */
+.latest_news_section{
+    margin: 2rem auto;
+}
+.card_image img{
+  width: 100%;
+}
+
+/* footer */
+.footer{
+  background-color: var(--dark-bg-color);
+  color: var(--text-light);
+  padding: 1.5rem 0;
+}
+
+.social{
+  display: flex;
+  margin: 1rem;
+}
