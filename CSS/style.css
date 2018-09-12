@@ -15,16 +15,23 @@
   color: var(--text-orange);
 }
 
+/* home_hero_section */
+/* .home_hero_section{
+  height: 50vh;
+} */
+.carousel-item img{
+  max-height: 70vh; !important
+}
 
 /* register_cta_section */
 .register_cta_section{
-  display: flex;
   background-color: black;
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
   color: white;
   margin: 0;
+  text-align: center;
 }
 
 .register_cta_section h6,.register_cta_section h4{
@@ -57,9 +64,23 @@
   background-color: var(--dark-bg-color);
   color: var(--text-light);
   padding: 1.5rem 0;
+  border-top: 2px solid var(--text-orange);
 }
 
-.social{
-  display: flex;
-  margin: 1rem;
+.navbar.navbar-expand-lg {
+
+    position: fixed;
+    width: 80%;
+    z-index: 100;
+    transform: translate(135px,15px);
+    background: black !important;
+    border-radius: 1.7rem;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar{
+  padding: 0.2rem 1rem !important;
 }
