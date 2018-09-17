@@ -59,6 +59,12 @@
   width: 100%;
 }
 
+/* clientel */
+.clientel img{
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* footer */
 .footer{
   background-color: var(--dark-bg-color);
@@ -74,6 +80,26 @@
 }
 .nav-link{
   color: white;
+}
+
+/* owl customization */
+.owl-prev{
+  position: absolute;
+  top: 30%;
+  left: -1vw;
+}
+.owl-prev span, .owl-next span{
+  font-size: 2.5rem;
+
+}
+.owl-next{
+  position: absolute;
+  top: 30%;
+  right: -1vw;
+}
+.owl-carousel img{
+  max-width: 70%;
+  margin: 0 auto;;
 }
 
 @media screen and (min-width: 768px) {
@@ -92,4 +118,10 @@
   .navbar{
     padding: 0.2rem 1rem !important;
   }
+
+  .clientel img{
+    width: 10rem;
+    margin: 0 auto;
+  }
+
 }
