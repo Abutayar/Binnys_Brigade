@@ -61,7 +61,7 @@
 
 /* clientel */
 .clientel img{
-  width: 100%;
+  max-width: 7rem;
   margin: 0 auto;
 }
 
